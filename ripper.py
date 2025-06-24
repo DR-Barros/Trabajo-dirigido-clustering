@@ -60,7 +60,7 @@ class MultiClassRipperClassifier:
         """
         rules_by_class = {}
         for cls, model in self.models.items():
-            rules_by_class[cls] = model.out_model()
+            rules_by_class[cls] = model.ruleset_
         return rules_by_class
 
     def print_rules(self):
