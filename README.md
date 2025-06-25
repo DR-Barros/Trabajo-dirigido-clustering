@@ -14,3 +14,8 @@ DBSCAN con una buena configuración tiene mejor performance para detectar los cl
 Con DBSCAN notamos que el arbol de decisión le permite hacer las separaciones ya que puede hacer multiples cortes en el plano.
 Ripper por su parte tiene la ventaja que puede generar reglas que hagan cortes en el plano o rectangulos dentro de este.
 DSGD por su parte a las zonas en que se puede hacer separaciones lineales les da unos pesos muy grandes y las zonas en que entra en conflicto rapidamente bajan estos pesos
+
+
+
+# Idea
+Si el foco de clusters es identificar nuevos grupos a uno le gustaría tener la mayor cantidad de información sobre las features con el menor numero de reglas, se podria crear una formula para eso que evaluar el numero de reglas, normalizandolo con las features usadas / el total de features.
