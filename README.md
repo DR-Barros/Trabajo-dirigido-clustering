@@ -16,6 +16,9 @@ Ripper por su parte tiene la ventaja que puede generar reglas que hagan cortes e
 DSGD por su parte a las zonas en que se puede hacer separaciones lineales les da unos pesos muy grandes y las zonas en que entra en conflicto rapidamente bajan estos pesos
 
 
+## Experimento Wine:
+se dio algo muy curioso DT dio muy buen resultado comparadao con Ripper y DSClustering a pesar  de ser un arbol muy sencillo, probablemente porque puede tomar valores mejores para realizar los cortes
+
 
 # Idea
 Si el foco de clusters es identificar nuevos grupos a uno le gustaría tener la mayor cantidad de información sobre las features con el menor numero de reglas, se podria crear una formula para eso que evaluar el numero de reglas, normalizandolo con las features usadas / el total de features.

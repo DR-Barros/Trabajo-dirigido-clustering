@@ -70,3 +70,4 @@ typing_extensions==4.14.0
 tzdata==2025.2
 wcwidth==0.2.13
 wittgenstein==0.3.4
+ucimlrepo
